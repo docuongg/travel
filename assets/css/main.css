@@ -569,15 +569,15 @@ a {
 }
 
 .place1 {
-    background: url('/assets/img/BG/samo-T5Z6NAnbjP4-unsplash.jpg') top center / cover no-repeat;
+    background: url('../img/BG/samo-T5Z6NAnbjP4-unsplash.jpg') top center / cover no-repeat;
 }
 
 .place2 {
-    background: url('/assets/img/BG/haut-risque-hoPYR4fmN0I-unsplash.jpg') top center / cover no-repeat;
+    background: url('../img/BG/haut-risque-hoPYR4fmN0I-unsplash.jpg') top center / cover no-repeat;
 }
 
 .place3 {
-    background: url('/assets/img/BG/livia-buhler-HPHC-3uXOXo-unsplash.jpg') top center / cover no-repeat;
+    background: url('../img/BG/livia-buhler-HPHC-3uXOXo-unsplash.jpg') top center / cover no-repeat;
 }
 
 .destinations__list--item p {
