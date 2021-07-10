@@ -1,0 +1,29 @@
+.grid {
+    width: 1120px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__col {
+    padding: 0 6px;
+    width: 25%;
+}
+
+.color-primary {
+    color: var(--primary-color) !important;
+}
+
+.size-l {
+    font-size: 4rem;
+}
+
+.pt-48 {
+    padding-top: 48px;
+}
+

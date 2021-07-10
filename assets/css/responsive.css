@@ -1,0 +1,147 @@
+@media (min-width: 1024px) {
+    .pd-rl-M {
+        padding: 0 250px;
+    }
+
+    .pd-rl-S {
+        padding: 0 150px
+    }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .pd-rl-M {
+        padding: 0 100px;
+    }
+
+    .header__menu {
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--primary-color);
+        overflow: hidden;
+    } 
+    
+    .header__menu--icon {
+        display: block;
+        color: white;
+        font-size: 2.4rem;
+        line-height: 80px;
+        cursor: pointer;
+    }
+    
+    .header__menu--icon:hover {
+        opacity: 0.75;
+    }
+    
+    .header__logo img {
+        display: none;
+    }
+    
+    .logo--text {
+        color: white;
+        font-size: 3.6rem;
+    }
+
+    .header__navbar {
+        position: absolute;
+        display: block;
+        background-color: white;
+        opacity: 0.9;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        overflow-y:scroll;
+        height: 520px;
+    }
+
+    .navbar__item--link {
+        text-transform: uppercase;
+        margin-left: 48px;
+        line-height: 48px;
+    }
+
+    .header__navbar--extra {
+        position: unset;
+        transform: scaleY(1);
+        visibility: visible;
+        box-shadow: unset;
+        margin-left: 48px;
+        padding: 0;
+    }
+
+    .navbar--extra__item--link {
+        font-weight: 550;
+    }
+
+    .reviewer__list--item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .reviewer__content {
+        margin-top: 12px;
+        text-align: center;
+        align-items: center;
+        margin-left: 2px;
+    }
+
+    .service__list {
+        flex-direction: column;
+    }
+
+    .service__list--item {
+        margin: 16px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    /* slider */
+
+    .slider {
+        
+    }
+
+    .slidewrapper {
+
+    }
+
+    .slide--img img {
+
+
+    }
+
+    .slide__content .content__heading {
+        font-size: 8rem;
+    } 
+
+    .slide__content .content__text {
+        padding: 0 100px;
+    }
+
+    .count-table {
+        position: relative;
+        top: -16px;
+    }
+
+    .count-table__item {
+        margin: 0 50px;
+    }
+
+    .grid__col {
+        width: 50%;
+        padding: 0 18px;
+    }
+}
+@media (min-width: 0px) and (max-width: 739px){
+        /* video Tuor */
+        .video-tuor-L {
+            display: none;
+        }
+        .video-tuor-M{
+            display: flex;
+            margin: 0 auto;
+        }
+}
